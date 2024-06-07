@@ -23,7 +23,6 @@
 
 - **Languages**:
     
-    ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
     ![Go](https://img.shields.io/badge/Go%20-%2300599C.svg?style=for-the-badge&logo=go&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 

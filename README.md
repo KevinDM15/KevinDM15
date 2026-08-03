@@ -1,10 +1,4 @@
-# Kevin Díaz
-
-```
-❯ whoami
-Self-taught developer from Colombia.
-Go · TypeScript · React Native · and a deep love for the terminal.
-```
+<img src="assets/hero-terminal.svg" width="100%" alt="❯ whoami — Kevin Díaz. Self-taught developer from Colombia. Go · TypeScript · React Native · and a deep love for the terminal." />
 
 I learned to program by building things I use every day. I work across
 web and mobile with React & React Native, and keep sharpening systems
@@ -13,23 +7,12 @@ that respect the keyboard.
 
 **Portfolio** → [kevindev.co](https://kevindev.co/)
 
-## Stack
-
-```
-Go          ▰▰▰▰▰▰▰▰▱▱
-TypeScript  ▰▰▰▰▰▰▰▰▱▱
-React / RN  ▰▰▰▰▰▰▰▱▱▱
-Python      ▰▰▰▰▰▰▱▱▱▱
-
-daily drivers: LazyVim · Zellij · Starship · Alacritty · Zsh
-```
+<img src="assets/stack.svg" width="100%" alt="Stack: Go 8/10, TypeScript 8/10, React and React Native 7/10, Python 6/10. Daily drivers: LazyVim, Zellij, Starship, Alacritty, Zsh." />
 
 ## Connect
 
-```
-❯ open  linkedin.com/in/kevindm14
-❯ open  kevindev.co
-❯ mail  kevindiazm.14@gmail.com
-```
+**❯** [linkedin.com/in/kevindm14](https://www.linkedin.com/in/kevindm14/)<br>
+**❯** [kevindev.co](https://kevindev.co/)<br>
+**❯** [kevindiazm.14@gmail.com](mailto:kevindiazm.14@gmail.com)
 
 <sub>made with a keyboard in Colombia 🇨🇴</sub>

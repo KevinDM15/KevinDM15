@@ -7,7 +7,7 @@ that respect the keyboard.
 
 **Portfolio** → [kevindev.co](https://kevindev.co/)
 
-<img src="assets/stack.svg" width="100%" alt="Stack: Go 8/10, TypeScript 8/10, React and React Native 7/10, Python 6/10. Daily drivers: LazyVim, Zellij, Starship, Alacritty, Zsh." />
+<img src="assets/stack.svg" width="100%" alt="Stack: Go expert, TypeScript expert, React and React Native intermediate, Python intermediate. Daily drivers: LazyVim, Zellij, Starship, Alacritty, Zsh." />
 
 ## Connect
 

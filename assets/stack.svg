@@ -1,51 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" font-family="'SFMono-Regular','Cascadia Code',Menlo,Consolas,monospace">
   <style>
     text { font-family: 'SFMono-Regular','Cascadia Code',Menlo,Consolas,monospace; }
-    .bar { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow 1.2s steps(10) forwards; }
-    .b1 { animation-delay: .2s; }
-    .b2 { animation-delay: .45s; }
-    .b3 { animation-delay: .7s; }
-    .b4 { animation-delay: .95s; }
-    @keyframes grow { to { transform: scaleX(1); } }
-    .fade { opacity: 0; animation: fadein .6s ease-out 1.9s forwards; }
+    .r { opacity: 0; transform: translateY(6px); animation: rise .5s ease-out forwards; }
+    .r1 { animation-delay: .2s; }
+    .r2 { animation-delay: .45s; }
+    .r3 { animation-delay: .7s; }
+    .r4 { animation-delay: .95s; }
+    .fade { opacity: 0; animation: fadein .6s ease-out 1.5s forwards; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
     @keyframes fadein { to { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }
-      .bar { transform: none; }
-      .fade { opacity: 1; }
+      .r, .fade { opacity: 1; transform: none; }
     }
   </style>
-
-  <defs>
-    <pattern id="blocks" x="200" y="0" width="24" height="16" patternUnits="userSpaceOnUse">
-      <rect width="19" height="16" fill="#ffffff"/>
-    </pattern>
-    <mask id="seg"><rect x="200" y="0" width="612" height="250" fill="url(#blocks)"/></mask>
-  </defs>
 
   <rect x="1.5" y="1.5" width="877" height="247" rx="14" fill="#131009" stroke="#3A3226" stroke-width="1.5"/>
   <text x="32" y="42" font-size="14" fill="#F0A73E" letter-spacing="2">❯ stack</text>
 
-  <g mask="url(#seg)">
-    <rect x="200" y="66"  width="608" height="16" fill="#2A2314"/>
-    <rect x="200" y="104" width="608" height="16" fill="#2A2314"/>
-    <rect x="200" y="142" width="608" height="16" fill="#2A2314"/>
-    <rect x="200" y="180" width="608" height="16" fill="#2A2314"/>
-    <rect class="bar b1" x="200" y="66"  width="486" height="16" fill="#F0A73E"/>
-    <rect class="bar b2" x="200" y="104" width="486" height="16" fill="#F0A73E"/>
-    <rect class="bar b3" x="200" y="142" width="426" height="16" fill="#F0A73E"/>
-    <rect class="bar b4" x="200" y="180" width="365" height="16" fill="#F0A73E"/>
+  <g class="r r1">
+    <text x="32" y="79" font-size="16" fill="#EADFC8">Go</text>
+    <line x1="200" y1="74" x2="760" y2="74" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="776" y="59" width="72" height="22" rx="5" fill="#F0A73E" fill-opacity="0.14" stroke="#F0A73E" stroke-opacity="0.55"/>
+    <text x="812" y="74" text-anchor="middle" font-size="12" fill="#F0A73E">expert</text>
   </g>
 
-  <text x="32" y="79"  font-size="16" fill="#EADFC8">Go</text>
-  <text x="32" y="117" font-size="16" fill="#EADFC8">TypeScript</text>
-  <text x="32" y="155" font-size="16" fill="#EADFC8">React / RN</text>
-  <text x="32" y="193" font-size="16" fill="#EADFC8">Python</text>
+  <g class="r r2">
+    <text x="32" y="117" font-size="16" fill="#EADFC8">TypeScript</text>
+    <line x1="200" y1="112" x2="760" y2="112" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="776" y="97" width="72" height="22" rx="5" fill="#F0A73E" fill-opacity="0.14" stroke="#F0A73E" stroke-opacity="0.55"/>
+    <text x="812" y="112" text-anchor="middle" font-size="12" fill="#F0A73E">expert</text>
+  </g>
 
-  <text x="848" y="79"  text-anchor="end" font-size="13" fill="#5C5240" class="fade">8/10</text>
-  <text x="848" y="117" text-anchor="end" font-size="13" fill="#5C5240" class="fade">8/10</text>
-  <text x="848" y="155" text-anchor="end" font-size="13" fill="#5C5240" class="fade">7/10</text>
-  <text x="848" y="193" text-anchor="end" font-size="13" fill="#5C5240" class="fade">6/10</text>
+  <g class="r r3">
+    <text x="32" y="155" font-size="16" fill="#EADFC8">React / RN</text>
+    <line x1="200" y1="150" x2="712" y2="150" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="728" y="135" width="120" height="22" rx="5" fill="#7FB8A9" fill-opacity="0.12" stroke="#7FB8A9" stroke-opacity="0.55"/>
+    <text x="788" y="150" text-anchor="middle" font-size="12" fill="#7FB8A9">intermediate</text>
+  </g>
+
+  <g class="r r4">
+    <text x="32" y="193" font-size="16" fill="#EADFC8">Python</text>
+    <line x1="200" y1="188" x2="712" y2="188" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="728" y="173" width="120" height="22" rx="5" fill="#7FB8A9" fill-opacity="0.12" stroke="#7FB8A9" stroke-opacity="0.55"/>
+    <text x="788" y="188" text-anchor="middle" font-size="12" fill="#7FB8A9">intermediate</text>
+  </g>
 
   <text x="32" y="230" font-size="13" fill="#8D7F66" class="fade">daily drivers: LazyVim · Zellij · Starship · Alacritty · Zsh</text>
 </svg>

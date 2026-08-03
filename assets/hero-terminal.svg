@@ -34,8 +34,8 @@
   <text x="56" y="112" font-size="19" fill="#EADFC8" class="type">whoami</text>
 
   <text x="32" y="188" font-size="48" font-weight="bold" fill="#EADFC8" class="r d1">Kevin Díaz</text>
-  <text x="32" y="230" font-size="19" fill="#8D7F66" class="r d2">Self-taught developer from Colombia.</text>
-  <text x="32" y="264" font-size="16" fill="#7FB8A9" class="r d3">Go · TypeScript · React Native · and a deep love for the terminal.</text>
+  <text x="32" y="230" font-size="19" fill="#8D7F66" class="r d2">Desarrollador autodidacta de Colombia.</text>
+  <text x="32" y="264" font-size="16" fill="#7FB8A9" class="r d3">Go · TypeScript · React Native · y un profundo amor por la terminal.</text>
 
   <text x="32" y="332" font-size="19" fill="#F0A73E" font-weight="bold">❯</text>
   <rect class="caret" x="56" y="316" width="11" height="21" fill="#F0A73E"/>

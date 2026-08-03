@@ -11,8 +11,10 @@ herramientas que respetan el teclado.
 
 ## Contacto
 
-**❯** [linkedin.com/in/kevindm14](https://www.linkedin.com/in/kevindm14/)<br>
-**❯** [kevindev.co](https://kevindev.co/)<br>
-**❯** [kevindiazm.14@gmail.com](mailto:kevindiazm.14@gmail.com)
+<p>
+  <a href="https://www.linkedin.com/in/kevindm14/"><img src="assets/btn-linkedin.svg" height="44" alt="❯ linkedin" /></a>&nbsp;
+  <a href="https://kevindev.co/"><img src="assets/btn-portafolio.svg" height="44" alt="❯ portafolio" /></a>&nbsp;
+  <a href="mailto:kevindiazm.14@gmail.com"><img src="assets/btn-email.svg" height="44" alt="❯ email" /></a>
+</p>
 
 <sub>hecho con un teclado en Colombia 🇨🇴</sub>

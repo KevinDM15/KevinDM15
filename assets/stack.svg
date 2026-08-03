@@ -20,31 +20,31 @@
 
   <g class="r r1">
     <text x="32" y="79" font-size="16" fill="#EADFC8">Go</text>
-    <line x1="200" y1="74" x2="760" y2="74" stroke="#3A3226" stroke-dasharray="2 6"/>
-    <rect x="776" y="59" width="72" height="22" rx="5" fill="#F0A73E" fill-opacity="0.14" stroke="#F0A73E" stroke-opacity="0.55"/>
-    <text x="812" y="74" text-anchor="middle" font-size="12" fill="#F0A73E">expert</text>
+    <line x1="200" y1="74" x2="748" y2="74" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="764" y="59" width="84" height="22" rx="5" fill="#F0A73E" fill-opacity="0.14" stroke="#F0A73E" stroke-opacity="0.55"/>
+    <text x="806" y="74" text-anchor="middle" font-size="12" fill="#F0A73E">experto</text>
   </g>
 
   <g class="r r2">
     <text x="32" y="117" font-size="16" fill="#EADFC8">TypeScript</text>
-    <line x1="200" y1="112" x2="760" y2="112" stroke="#3A3226" stroke-dasharray="2 6"/>
-    <rect x="776" y="97" width="72" height="22" rx="5" fill="#F0A73E" fill-opacity="0.14" stroke="#F0A73E" stroke-opacity="0.55"/>
-    <text x="812" y="112" text-anchor="middle" font-size="12" fill="#F0A73E">expert</text>
+    <line x1="200" y1="112" x2="748" y2="112" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="764" y="97" width="84" height="22" rx="5" fill="#F0A73E" fill-opacity="0.14" stroke="#F0A73E" stroke-opacity="0.55"/>
+    <text x="806" y="112" text-anchor="middle" font-size="12" fill="#F0A73E">experto</text>
   </g>
 
   <g class="r r3">
     <text x="32" y="155" font-size="16" fill="#EADFC8">React / RN</text>
-    <line x1="200" y1="150" x2="712" y2="150" stroke="#3A3226" stroke-dasharray="2 6"/>
-    <rect x="728" y="135" width="120" height="22" rx="5" fill="#7FB8A9" fill-opacity="0.12" stroke="#7FB8A9" stroke-opacity="0.55"/>
-    <text x="788" y="150" text-anchor="middle" font-size="12" fill="#7FB8A9">intermediate</text>
+    <line x1="200" y1="150" x2="724" y2="150" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="740" y="135" width="108" height="22" rx="5" fill="#7FB8A9" fill-opacity="0.12" stroke="#7FB8A9" stroke-opacity="0.55"/>
+    <text x="794" y="150" text-anchor="middle" font-size="12" fill="#7FB8A9">intermedio</text>
   </g>
 
   <g class="r r4">
     <text x="32" y="193" font-size="16" fill="#EADFC8">Python</text>
-    <line x1="200" y1="188" x2="712" y2="188" stroke="#3A3226" stroke-dasharray="2 6"/>
-    <rect x="728" y="173" width="120" height="22" rx="5" fill="#7FB8A9" fill-opacity="0.12" stroke="#7FB8A9" stroke-opacity="0.55"/>
-    <text x="788" y="188" text-anchor="middle" font-size="12" fill="#7FB8A9">intermediate</text>
+    <line x1="200" y1="188" x2="724" y2="188" stroke="#3A3226" stroke-dasharray="2 6"/>
+    <rect x="740" y="173" width="108" height="22" rx="5" fill="#7FB8A9" fill-opacity="0.12" stroke="#7FB8A9" stroke-opacity="0.55"/>
+    <text x="794" y="188" text-anchor="middle" font-size="12" fill="#7FB8A9">intermedio</text>
   </g>
 
-  <text x="32" y="230" font-size="13" fill="#8D7F66" class="fade">daily drivers: LazyVim · Zellij · Starship · Alacritty · Zsh</text>
+  <text x="32" y="230" font-size="13" fill="#8D7F66" class="fade">uso a diario: LazyVim · Zellij · Starship · Alacritty · Zsh</text>
 </svg>
